@@ -4,34 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
-  <title>Frontend Mentor | Recipe page</title>
+  <title>Recipe page</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit">
-
 </head>
 
 <body>
-  <div class="square">
-    <img src="image-omelette.jpeg" alt="omelette image">
+  <main class="square">
+    <figure>
+      <img src="image-omelette.jpeg" alt="omelette image">
+    </figure>
 
-    <h1 class="title">Simple Omelette Recipe</h1>
-    <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection,
-      optionally filled with your choice of cheese, vegetables, or meats.</p>
-    <div class="prepration">
-      <h3>Preparation time</h3>
+    <!-- <header > -->
+    <h2 class="title">Simple Omelette Recipe</h2>
+    <!-- </header> -->
+
+    <section>
+      <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection,
+        optionally filled with your choice of cheese, vegetables, or meats.</p>
+    </section>
+
+    <section class="prepration">
+      <h2>Preparation time</h2>
       <ul>
         <li> <span class="boldt">Total:</span> Approximately 10 minutes</li>
         <li> <span class="boldt">Preparation:</span> 5 minutes</li>
         <li> <span class="boldt">Cooking:</span> 5 minutes</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="ingrediants">
+    <section class="ingrediants">
       <h2>Ingredients</h2>
       <ul>
         <li> 2-3 large eggs</li>
@@ -40,35 +44,41 @@
         <li> 1 tablespoon of butter or oil</li>
         <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
       </ul>
-    </div>
+    </section>
     <hr>
-    <div class="instructors">
+
+    <section class="instructors">
       <h2> Instructions </h2>
       <ol>
-        <li> <span class="bt">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they
+        <li> <span class="boldt">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until
+          they
           are well mixed.
           You can add a tablespoon of water or milk for a fluffier texture.</li>
 
-        <li> <span class="bt">Heat the pan: </span>Place a non-stick frying pan over medium heat and add butter or oil.
+        <li> <span class="boldt">Heat the pan: </span>Place a non-stick frying pan over medium heat and add butter or
+          oil.
         </li>
 
-        <li> <span class="bt">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt
+        <li> <span class="boldt">Cook the omelette:</span> Once the butter is melted and bubbling, pour in the eggs. Tilt
           the pan to ensure
           the eggs evenly coat the surface.</li>
 
-        <li> <span class="bt">Add fillings (optional):</span> When the eggs begin to set at the edges but are still
+        <li> <span class="boldt">Add fillings (optional):</span> When the eggs begin to set at the edges but are still
           slightly runny in the
           middle, sprinkle your chosen fillings over one half of the omelette.</li>
 
-        <li><span class="bt">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and fold
+        <li><span class="boldt">Fold and serve:</span> As the omelette continues to cook, carefully lift one edge and
+          fold
           it over the
           fillings. Let it cook for another minute, then slide it onto a plate.</li>
 
-        <li><span class="bt">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
+        <li><span class="boldt">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
       </ol>
-    </div>
+    </section>
+
     <hr>
-    <div class="nut">
+
+    <section class="nut">
       <h2>Nutrition</h2>
 
       <p>The table below shows nutritional values per serving without the additional fillings.</p>
@@ -94,12 +104,14 @@
           <td class="val">22g</td>
         </tr>
       </table>
-    </div>
-    <div class="attribution">
+    </section>
+
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Mawada Mohamed</a>.
-    </div>
-  </div>
+    </footer>
+  </main>
+
 
 </body>
 
